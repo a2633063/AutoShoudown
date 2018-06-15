@@ -199,6 +199,11 @@
             // nudMin
             // 
             this.nudMin.Location = new System.Drawing.Point(98, 1);
+            this.nudMin.Maximum = new decimal(new int[] {
+            59,
+            0,
+            0,
+            0});
             this.nudMin.Name = "nudMin";
             this.nudMin.Size = new System.Drawing.Size(61, 21);
             this.nudMin.TabIndex = 12;
@@ -207,6 +212,11 @@
             // nudHour
             // 
             this.nudHour.Location = new System.Drawing.Point(1, 1);
+            this.nudHour.Maximum = new decimal(new int[] {
+            720,
+            0,
+            0,
+            0});
             this.nudHour.Name = "nudHour";
             this.nudHour.Size = new System.Drawing.Size(61, 21);
             this.nudHour.TabIndex = 10;
